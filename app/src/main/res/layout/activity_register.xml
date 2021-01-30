@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity"
+    android:background="@drawable/splashfirebase">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_round_white"
+        android:orientation="vertical"
+        android:radius="110dp"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvNameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textAlignment="viewStart"
+            android:textColor="@color/Gray"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etNameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:backgroundTint="@color/Gray"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/Blue" />
+
+        <TextView
+            android:id="@+id/tvEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="Email"
+            android:textAlignment="viewStart"
+            android:textColor="@color/Gray"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:backgroundTint="@color/Blue"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/Blue" />
+
+        <TextView
+            android:id="@+id/tvPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="Password"
+            android:textAlignment="viewStart"
+            android:textColor="@color/Gray"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:backgroundTint="@color/Gray"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/Blue" />
+
+        <TextView
+            android:id="@+id/tvConfirmPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="Repeat Password"
+            android:textAlignment="viewStart"
+            android:textColor="@color/Gray"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etConfirmPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:backgroundTint="@color/Gray"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/Blue" />
+
+        <Button
+            android:id="@+id/bCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/Red"
+            android:text="CREATE ACCOUNT"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
